@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.div1{
+      width:100% ;
+    height: 14vh;
+    background: linear-gradient(to right, darkblue,rgb(82, 203, 244));
+}
+
+nav{
+    height: 53px;
+    align-items: center;
+    background-color: blue
+}
+nav div{
+    align-items: center
+}
+.navigations{
+    display: flex;
+    list-style: none;
+}
+
+.navigations a{
+    text-decoration: none;
+    padding: 8px;
+    color: #efefef;
+
+}
+.div2{
+    display: flex;
+    gap: 50%;
+    margin-left: 7%;
+}
+.div3 img{
+    height:32px;
+    /* margin-top: 15%; */
+}
+.div4{
+  display: flex;
+  gap: 35px;
+  font-weight: bolder; 
+  margin-top: 3%;
+}
+.div4 a{
+    text-decoration: none;
+    color: black;
+}
+.second{
+    width: 100%;
+    /* height: 75vh; */
+}
+.div5{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    margin: 3rem 0rem;
+    padding-top: 7%;
+}
+.div7 img{
+    width:1205;
+    height:50VH ;
+    /* padding-top: 15%; */
+    border-radius: 0px 0px 0px 110px;
+}
+.third{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(5, 5, 124);
+}
+.div8 img{
+    width:100% ;
+    height:60vh ;
+}
+.fourth{
+    width: 100%;
+    /* height: 100vh; */
+}
+.div9{
+    display: flex;
+    gap:5% ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div10{
+    width: 40%;
+    height: 70vh;
+    background-color: white;
+    margin-top: 8%;
+    box-shadow: 5px 5px 100px rgb(67, 67, 145);
+}
+.div11{
+    width: 40%;
+    height: 70vh;
+    background-color: white;
+    margin-top: 8%;
+    box-shadow: 5px 5px 100px rgb(67, 67, 145);
+}
+.div12{
+    width: 40%;
+    height: 70vh;
+    background-color: white;
+    margin-top: 8%;
+    box-shadow: 5px 5px 100px rgb(67, 67, 145);
+}
+.div10 img{
+  width:20% ;
+  height: 10vh;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.div11 img{
+  width:20% ;
+  height: 10vh;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.div12 img{
+  width:20% ;
+  height: 10vh;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.div10 h3{
+    text-align: center;
+    margin-top: 3%;
+}
+.div11 h3{
+    text-align: center;
+    margin-top: 3%;
+}
+.div12 h3{
+    text-align: center;
+    margin-top: 3%;
+}
+.div10 p{
+    text-align: center;
+    margin-top: 5%;
+}
+.div11 p{
+    text-align: center;
+    margin-top: 5%;
+}
+.div12 p{
+    text-align: center;
+    margin-top: 5%;
+}
+.fifth{
+    width: 100%;
+    height: 30vh;
+    background-color:white;
+}
+.div13{
+    text-align: center;
+}
+.div14 button{
+  width: 15%; 
+  height: 7vh; 
+  margin-left: 45%;
+  margin-top: 2%;
+  border-radius: 50px;
+  border: 1px solid rgb(5, 5, 177);
+  
+}
+.last{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(5, 5, 124);
+}
+.div15 img{
+  height: 11vh;  
+  margin-left: 50%;
+  margin-top: 3%;
+}
+.mail a{
+    color: white;
+    margin-left: 47%;
+    margin-top: 10%;
+}
+.tel a{
+    color: white;
+    margin-left: 48%;
+}
+.facebook{
+    display: flex;
+    gap: 3%;
+    padding-left: 45%;
+    padding-top: 3%; 
+}
+
+
+@media screen and (max-width: 768px){
+    .div9{
+        width:100%;
+        flex-direction: column;
+    }
+    .div9>div{
+        width:80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .navigations{
+        display: none;
+    }
+
+    .div5{
+        flex-direction: column;
+        height: auto !important;
+        gap: 1rem;
+        margin: 3rem 0rem;
+    }
+
+   .div5 .div6{
+        order: 2;
+    }
+
+    .div5>div{
+        margin: auto;
+    }
+}
